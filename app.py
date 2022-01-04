@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 
-@app.get('/')
+@app.route('/')
 def f():
     return {'work':"done"}
 
